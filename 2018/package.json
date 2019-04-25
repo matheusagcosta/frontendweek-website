@@ -1,0 +1,29 @@
+{
+  "name": "few2k18",
+  "version": "1.0.0",
+  "description": "Website for week of events about front-end dev in Sao Paulo",
+  "url": "http://frontendweek.com.br/",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/frontendweek/frontendweek-website"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-autoprefixer": "^3.0.4",
+    "grunt-browser-sync": "^2.2.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-imagemin": "^2.0.1",
+    "grunt-contrib-pug": "^1.0.0",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-uglify": "^3.1.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "imagemin-mozjpeg": "^7.0.0",
+    "imagemin-optipng": "^5.2.1",
+    "imagemin-svgo": "^6.0.0"
+  },
+  "sasslintConfig": ".sass-lint.yml",
+  "dependencies": {
+    "sass": "^1.8.0"
+  }
+}
