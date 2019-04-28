@@ -45,13 +45,16 @@
   font-weight: bold
 
 .sidebar__days
-  align-content: space-between
-  display: flex
+  align-content: flex-start
+  display: none
   flex-wrap: wrap
   height: 90%
   padding-bottom: 10%
   text-align: left
   width: 100%
+
+  &.sidebar__days--active
+    display: flex
 
 .sidebar__days__single-day
   min-height: 100px
@@ -72,6 +75,7 @@
 .sidebar__days__single-day__meetup
   color: $black
   display: inline-flex
+  align-items: center
   font-size: 1.1em
   font-weight: 500
   margin-left: 2ch
@@ -82,13 +86,13 @@
   &:hover
     opacity: .6
 
-.sidebar__days__single-day__meetup__color
+.sidebar__days__single-day__meetup__item
   background-color: $black
-  border-radius: 30px
+  border-radius: 50%
   display: inline-block
-  height: 1.5ch
+  height: 5px
   margin-right: 1ch
-  width: 1.5ch
+  width: 5px
     
 .sidebar__days__single-day__meetup__color_JS-SP
   background-color: $js-sp
