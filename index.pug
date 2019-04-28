@@ -47,7 +47,28 @@ html(lang='pt-br')
         .sidebar__city
           | São Paulo
 
-      .sidebar__days.sidebar__days--cps
+      .sidebar__days.sidebar__days--active
+
+        .sidebar__days__single-day
+          .sidebar__days__single-day__header
+            h3.sidebar__days_monday__title
+              | 03/05 - Sexta
+
+          a.sidebar__days__single-day__meetup(href='https://www.meetup.com/Javascript-SP/events/251006663/', target='_blank', rel='noopener')
+            .sidebar__days__single-day__meetup__item
+            span.sidebar__days__single-day__meetup__title
+              | Campinas Front-end
+
+        .sidebar__days__single-day
+          .sidebar__days__single-day__header
+            h3.sidebar__days_monday__title
+              | 04/05 - Sábado
+          a.sidebar__days__single-day__meetup(href='https://frontincampinas.com.br/', target='_blank', rel='noopener')
+            .sidebar__days__single-day__meetup__item
+            span.sidebar__days__single-day__meetup__title
+              | Front in Campinas 2019
+
+      .sidebar__days
 
         .sidebar__days__single-day
           .sidebar__days__single-day__header
@@ -55,12 +76,12 @@ html(lang='pt-br')
               | 10/7 - Terça
 
           a.sidebar__days__single-day__meetup(href='https://www.meetup.com/Javascript-SP/events/251006663/', target='_blank', rel='noopener')
-            .sidebar__days__single-day__meetup__color.sidebar__days__single-day__meetup__color_JS-SP
+            .sidebar__days__single-day__meetup__item
             span.sidebar__days__single-day__meetup__title
               | JS SP
 
           a.sidebar__days__single-day__meetup(href='https://www.meetup.com/CSS-SP/events/250622390/', target='_blank', rel='noopener')
-            .sidebar__days__single-day__meetup__color.sidebar__days__single-day__meetup__color_CSS-SP
+            .sidebar__days__single-day__meetup__item
             span.sidebar__days__single-day__meetup__title
               | CSS SP + Nerdzão
 
@@ -71,12 +92,12 @@ html(lang='pt-br')
               | 11/7 - Quarta
 
           a.sidebar__days__single-day__meetup(href='https://www.meetup.com/VueJS-SP/events/251006838/', target='_blank', rel='noopener')
-            .sidebar__days__single-day__meetup__color.sidebar__days__single-day__meetup__color_VueJS-SP
+            .sidebar__days__single-day__meetup__item
             span.sidebar__days__single-day__meetup__title
               | VueJS SP
 
           a.sidebar__days__single-day__meetup(href='https://www.meetup.com/pt-BR/html-sp/events/251473653/', target='_blank', rel='noopener')
-            .sidebar__days__single-day__meetup__color.sidebar__days__single-day__meetup__color_HTML-SP
+            .sidebar__days__single-day__meetup__item
             span.sidebar__days__single-day__meetup__title
               | HTML SP
 
@@ -86,15 +107,15 @@ html(lang='pt-br')
             h3.sidebar__days_monday__title
               | 12/7 - Quinta
           a.sidebar__days__single-day__meetup(href='https://www.meetup.com/pt-BR/ReactJS-SP/events/252030072/', target='_blank', rel='noopener')
-            .sidebar__days__single-day__meetup__color.sidebar__days__single-day__meetup__color_React-SP
+            .sidebar__days__single-day__meetup__item
             span.sidebar__days__single-day__meetup__title
               | React SP
           a.sidebar__days__single-day__meetup(href='https://www.meetup.com/pt-BR/Training-Center-SP/', target='_blank', rel='noopener')
-            .sidebar__days__single-day__meetup__color.sidebar__days__single-day__meetup__color_TC-Talks-SP
+            .sidebar__days__single-day__meetup__item
             span.sidebar__days__single-day__meetup__title
               | TC Talks SP
           a.sidebar__days__single-day__meetup(href='https://www.meetup.com/pt-BR/femugsp/events/252404138/', target='_blank', rel='noopener')
-            .sidebar__days__single-day__meetup__color.sidebar__days__single-day__meetup__color_FEMUG-SP
+            .sidebar__days__single-day__meetup__item
             span.sidebar__days__single-day__meetup__title
               | FEMUG-SP
 
@@ -103,7 +124,7 @@ html(lang='pt-br')
             h3.sidebar__days_monday__title
               | 13/7 - Sexta
           a.sidebar__days__single-day__meetup(href='https://www.meetup.com/pt-BR/Frontend-Dev-SP-Meetup/events/251780679/', target='_blank', rel='noopener')
-            .sidebar__days__single-day__meetup__color.sidebar__days__single-day__meetup__color_Frontend-SP
+            .sidebar__days__single-day__meetup__item
             span.sidebar__days__single-day__meetup__title
               | Frontend SP
 
@@ -112,76 +133,7 @@ html(lang='pt-br')
             h3.sidebar__days_monday__title
               | 14/7 - Sábado
           a.sidebar__days__single-day__meetup(href='http://www.frontinsampa.com.br/', target='_blank', rel='noopener')
-            .sidebar__days__single-day__meetup__color.sidebar__days__single-day__meetup__color_FrontInSampa
-            span.sidebar__days__single-day__meetup__title
-              | FrontInSampa 2018
-
-      .sidebar__days.sidebar__days--sp
-
-        .sidebar__days__single-day
-          .sidebar__days__single-day__header
-            h3.sidebar__days_monday__title
-              | 10/7 - Terça
-
-          a.sidebar__days__single-day__meetup(href='https://www.meetup.com/Javascript-SP/events/251006663/', target='_blank', rel='noopener')
-            .sidebar__days__single-day__meetup__color.sidebar__days__single-day__meetup__color_JS-SP
-            span.sidebar__days__single-day__meetup__title
-              | JS SP
-
-          a.sidebar__days__single-day__meetup(href='https://www.meetup.com/CSS-SP/events/250622390/', target='_blank', rel='noopener')
-            .sidebar__days__single-day__meetup__color.sidebar__days__single-day__meetup__color_CSS-SP
-            span.sidebar__days__single-day__meetup__title
-              | CSS SP + Nerdzão
-
-
-        .sidebar__days__single-day
-          .sidebar__days__single-day__header
-            h3.sidebar__days_monday__title
-              | 11/7 - Quarta
-
-          a.sidebar__days__single-day__meetup(href='https://www.meetup.com/VueJS-SP/events/251006838/', target='_blank', rel='noopener')
-            .sidebar__days__single-day__meetup__color.sidebar__days__single-day__meetup__color_VueJS-SP
-            span.sidebar__days__single-day__meetup__title
-              | VueJS SP
-
-          a.sidebar__days__single-day__meetup(href='https://www.meetup.com/pt-BR/html-sp/events/251473653/', target='_blank', rel='noopener')
-            .sidebar__days__single-day__meetup__color.sidebar__days__single-day__meetup__color_HTML-SP
-            span.sidebar__days__single-day__meetup__title
-              | HTML SP
-
-
-        .sidebar__days__single-day
-          .sidebar__days__single-day__header
-            h3.sidebar__days_monday__title
-              | 12/7 - Quinta
-          a.sidebar__days__single-day__meetup(href='https://www.meetup.com/pt-BR/ReactJS-SP/events/252030072/', target='_blank', rel='noopener')
-            .sidebar__days__single-day__meetup__color.sidebar__days__single-day__meetup__color_React-SP
-            span.sidebar__days__single-day__meetup__title
-              | React SP
-          a.sidebar__days__single-day__meetup(href='https://www.meetup.com/pt-BR/Training-Center-SP/', target='_blank', rel='noopener')
-            .sidebar__days__single-day__meetup__color.sidebar__days__single-day__meetup__color_TC-Talks-SP
-            span.sidebar__days__single-day__meetup__title
-              | TC Talks SP
-          a.sidebar__days__single-day__meetup(href='https://www.meetup.com/pt-BR/femugsp/events/252404138/', target='_blank', rel='noopener')
-            .sidebar__days__single-day__meetup__color.sidebar__days__single-day__meetup__color_FEMUG-SP
-            span.sidebar__days__single-day__meetup__title
-              | FEMUG-SP
-
-        .sidebar__days__single-day
-          .sidebar__days__single-day__header
-            h3.sidebar__days_monday__title
-              | 13/7 - Sexta
-          a.sidebar__days__single-day__meetup(href='https://www.meetup.com/pt-BR/Frontend-Dev-SP-Meetup/events/251780679/', target='_blank', rel='noopener')
-            .sidebar__days__single-day__meetup__color.sidebar__days__single-day__meetup__color_Frontend-SP
-            span.sidebar__days__single-day__meetup__title
-              | Frontend SP
-
-        .sidebar__days__single-day
-          .sidebar__days__single-day__header
-            h3.sidebar__days_monday__title
-              | 14/7 - Sábado
-          a.sidebar__days__single-day__meetup(href='http://www.frontinsampa.com.br/', target='_blank', rel='noopener')
-            .sidebar__days__single-day__meetup__color.sidebar__days__single-day__meetup__color_FrontInSampa
+            .sidebar__days__single-day__meetup__item
             span.sidebar__days__single-day__meetup__title
               | FrontInSampa 2018
 
