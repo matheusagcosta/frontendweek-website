@@ -2,8 +2,7 @@
   background-color: $main-gray
   display: flex
   flex-wrap: wrap
-  min-height: 100vh
-  height: 100%
+  height: 100vh
   justify-content: center
   margin: 0
   max-height: 100%
@@ -11,10 +10,8 @@
   padding: 2em
   text-align: center
   width: 25%
-  z-index: 1
 
   @media (max-width: 900px)
-    min-width: none
     height: unset
     width: 100%
 
@@ -24,58 +21,36 @@
   font-size: 1.5em
   letter-spacing: 1.5px
   text-transform: uppercase
-  font-weight: normal
 
-.sidebar__city-toggle
-  display: flex
-  width: 100%
-  justify-content: center
-
-.sidebar__city
-  cursor: pointer
-  &:hover 
-    opacity: 0.6
-
-.sidebar__city:first-child
-  margin-right: 15px
-  padding-right: 15px
-  border-right: 1px solid $black
-
-.sidebar__city--active
-  font-weight: bold
 
 .sidebar__days
-  align-content: flex-start
-  display: none
+  align-content: space-between
+  display: flex
   flex-wrap: wrap
   height: 90%
   padding-bottom: 10%
   text-align: left
   width: 100%
 
-  &.sidebar__days--active
-    display: flex
-
 .sidebar__days__single-day
   min-height: 100px
   width: 100%
 
 .sidebar__days__single-day__header
-  background-color: $black
+  background-color: $header-gray
   border-radius: 5px
   text-align: center
   width: 100%
 
 .sidebar__days_monday__title
-  color: $white
+  color: $main-gray
   font-size: 1em
   padding: 3px 0
   text-transform: uppercase
 
 .sidebar__days__single-day__meetup
-  color: $black
+  color: $white
   display: inline-flex
-  align-items: center
   font-size: 1.1em
   font-weight: 500
   margin-left: 2ch
@@ -86,13 +61,13 @@
   &:hover
     opacity: .6
 
-.sidebar__days__single-day__meetup__item
-  background-color: $black
-  border-radius: 50%
+.sidebar__days__single-day__meetup__color
+  background-color: $white
+  border-radius: 30px
   display: inline-block
-  height: 5px
+  height: 1.5ch
   margin-right: 1ch
-  width: 5px
+  width: 1.5ch
     
 .sidebar__days__single-day__meetup__color_JS-SP
   background-color: $js-sp

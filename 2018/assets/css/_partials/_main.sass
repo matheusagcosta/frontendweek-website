@@ -1,7 +1,7 @@
 .main
   align-items: center
   background-size: cover
-  // background: linear-gradient($background-filtre, $background-filtre), url('../img/sao-paulo.jpg') no-repeat center center
+  background: linear-gradient($background-filtre, $background-filtre), url('../img/sao-paulo.jpg') no-repeat center center
   display: flex
   height: 100vh
   justify-content: center
@@ -12,20 +12,10 @@
   padding: 0
   position: relative
   width: 75%
-  z-index: 1
 
   @media (max-width: 900px)
     max-width: unset
     width: 100%
-
-#particles
-  position: absolute
-  top: 0
-  left: 0
-  width: 100%
-  height: 100%
-  background-color: #f4f4f4
-  z-index: 1
 
 .main__text
   max-width: 70%
@@ -37,14 +27,14 @@
   width: 100%
 
 .main__text__date
-  color: $black
-  font-size: 1.5em
+  color: $white
+  font-size: 1.8em
   font-weight: 500
-  // letter-spacing: 4px
+  letter-spacing: 4px
 
   @media (max-width: 900px)
     font-size: 1.2em
-    // letter-spacing: 2px
+    letter-spacing: 2px
 
 
 .main__mailbox
@@ -59,7 +49,7 @@
 
 
 .main__mailbox__label
-  color: $black
+  color: $white
   font-size: 1.2em
   font-weight: 500
   margin-bottom: .5em
@@ -100,5 +90,30 @@
 
   &:hover
     background-color: $hover-orange
+
+.main_text_credits_photography
+  align-items: center
+  bottom: 0.3em
+  display: flex
+  flex-wrap: wrap
+  justify-content: center
+  position: absolute
+  text-align: center
+
+.main_text_credits_photography-title
+  color: $white
+  font-size: 1.1em
+  font-weight: 500
+  opacity: 0.4
+  text-decoration: none
+  transition: opacity .1s ease-in-out
+  
+  &:hover
+    opacity: .6
+
+  
+
+
+
 
   
