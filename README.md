@@ -2,7 +2,10 @@
   <img src="assets/img/logo.svg" width="100">
 </p>
 
-# Front-end Week 2k18
+# Front-end Week
+
+Bring people together from the front-end development community to exchange knowledge, meet new people and improve ourselves in small tech meetings and Meetups.
+
 
 [Access the website](http://frontendweek.com.br/)
 
