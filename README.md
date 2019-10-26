@@ -10,9 +10,7 @@ Bring people together from the front-end development community to exchange knowl
 [Access the website](http://frontendweek.com.br/)
 
 This project uses:
-- [Pug](https://pugjs.org/)
-- [Sass](http://sass-lang.com/)
-- [Grunt](https://gruntjs.com/)
+- [harpjs](http://harpjs.com/)
 - [Browsersync](https://www.browsersync.io/)
 
 ## Getting Started
@@ -22,7 +20,7 @@ This project uses:
 First of all, install the dependencies to run this boilerplate.
 
 - [NodeJS](http://nodejs.org/)
-- [Grunt](https://gruntjs.com/)
+- [yarn](https://yarnpkg.com/)
 
 ```sh
 
@@ -31,7 +29,7 @@ git clone git@github.com:frontendweek/frontendweek-website.git
 cd frontendweek-website.git
 
 # install dependencies
-npm install
+`yarn` or `npm install`
 
 ```
 
@@ -48,30 +46,18 @@ After that, you should be good to go :)
 │   │   ├── modules/
 │   │   └── index.min.js
 ├── includes/
-│   └── *.pug
-├── Gruntfile.js
-├── index.pug
+│   └── *.jade
+├── index.jade
 ├── package.json
 ├── README.md
 ```
 These structure will change during the project.
 
 
-### Tasks
+### Scripts
 
-- `grunt concat`: concat `modules/*.js` into `index.min.js`
-- `grunt uglify`: uglifies `index.min.js` into itself
-
-- `grunt sass`: build [everything].sass into style.css
-- `grunt autoprefixer`: adds vendor prefixes to style.css
-
-- `grunt imagemin`: optimize `*.jpg`,`*.png`,`*.svg` inside `assets/img`
-
-- `grunt pug`: generates `index.html` from `index.pug` + `includes/*.pug`
-
-- `grunt compile`: run concat, uglify, sass, autoprefixer, imagemin, pug; does *not* start server
-- `grunt`: run watch [tasks: pug, sass, concat] and start BrowserSync local server
-
+- `yarn dev`: starts the server with BrowserSync on localhost:3000/
+- `yarn build`: compiles the files into the *docs* folder to get ready to deploy
 
 ## License
 
