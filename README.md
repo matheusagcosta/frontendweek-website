@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/img/logo.svg" width="100">
+  <img src="_src/assets/img/logo.svg" width="100">
 </p>
 
 # Front-end Week
@@ -29,7 +29,7 @@ git clone git@github.com:frontendweek/frontendweek-website.git
 cd frontendweek-website.git
 
 # install dependencies
-`yarn` or `npm install`
+$yarn or $npm install
 
 ```
 
